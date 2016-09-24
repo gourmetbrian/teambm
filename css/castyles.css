@@ -1,0 +1,79 @@
+    * {
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    body {
+        height: 100%;
+        width: 100%;
+        background: url('../img/schedulebackground.jpg') no-repeat center;
+        display: table;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    /*Header Styles*/
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #000;
+        margin: .25em;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-top: 0;
+    }
+    /*Row*/
+    
+    
+    .ul .li {
+        text-align: left;
+    }
+
+.big-font li{
+font-size:16px;
+}
+    
+    @media only screen and (max-width:480px) {
+        /* styles for mobile browsers smaller than 480px; (iPhone) */
+        .day {
+            height: 30%;
+            width: 350px;
+            background: #ffffe6;
+            border-radius: 5%;
+            margin: 10px auto 10px auto;
+            padding: 5px;
+            padding-right: 10px;
+            color: black;
+        }
+        .schedule {
+            margin-top: 15%;
+            border-radius: 5%;
+        }
+    }
+    
+    @media only screen and (min-width: 481px) {
+        /* For portrait layouts only */
+        .day {
+            height: 30%;
+            width: 450px;
+            background: #ffffe6;
+            border-radius: 5%;
+            margin: 10px auto 10px auto;
+            padding: 5px;
+            padding-right: 10px;
+            color: black;
+        }
+        .schedule {
+            margin-top: 15%;
+            border-radius: 5%;
+        }
+    }

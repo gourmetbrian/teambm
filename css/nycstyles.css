@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background:  url('../img/nycsunset.jpg') no-repeat center;
+    display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Text Styles*/
+#card {
+  text-align: center;
+  vertical-align: center;
+  color: #fff;
+  height: 30%;
+  width: 350px;
+  background: #ffffe6;
+  border-radius: 5%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 5px;
+}
+
+
+/*Header Styles*/
+h1, h2, h3, h4 {
+  color: #000;
+  margin: .25em;
+}
+h2 {
+  margin-top: 0;
+}

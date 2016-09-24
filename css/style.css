@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*Section styles*/
+#homeSection {
+    background: url('../img/websitebackground.jpg') no-repeat center;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#aboutSection {
+    background: url('../img/field.jpg') no-repeat center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#scheduleSection {
+    background: url('../img/schedulebackground.jpg') no-repeat center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*Text Styles*/
+
+#card {
+    display: none;
+    text-align: center;
+    vertical-align: 10em;
+    /*    height: %;*/
+    min-width: 250px;
+    max-width: 350px;
+    background: #ffffe6;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 5px;
+}
+
+
+/*Header Styles*/
+
+h1,
+h2,
+h3,
+h4 {
+    color: #000;
+    margin: .25em;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+/*Row*/
+
+.ul .li {
+    text-align: left;
+}
+
+.big-font li {
+    font-size: 16px;
+}
+
+#aboutPicture {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#pictureCard {
+text-align: center;
+    width: 350px;
+    background: #ffffe6;
+    border-radius: 5%;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    padding-right: 10px;
+    color: black;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .day {
+        height: 30%;
+        width: 350px;
+        background: #ffffe6;
+        border-radius: 5%;
+        margin: 10px auto 10px auto;
+        padding: 5px;
+        padding-right: 10px;
+        color: black;
+    }
+    .schedule-entry {
+        margin-top: 15%;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    /* For portrait layouts only */
+    .day {
+        height: 30%;
+        width: 450px;
+        background: #ffffe6;
+        border-radius: 5%;
+        margin: 10px auto 10px auto;
+        padding: 5px;
+        padding-right: 10px;
+        color: black;
+    }
+    .schedule-entry {
+        margin-top: 15%;
+        border-radius: 5%;
+    }
+}
